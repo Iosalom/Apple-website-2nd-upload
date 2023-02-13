@@ -1,0 +1,597 @@
+/*I imported fonts from Google-fonts, which I used in main content of website.*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+
+/*General display order of HTML elements before styling.*/
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/*Websites General adjustment for perfect height.*/
+body{
+  height: 264rem;
+}
+
+/*Websites header styling.*/
+.generalDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-bar{
+  background: rgb(51, 51, 51);
+  height: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px 24px 16px;
+}
+.nav-bar{
+  font-size: 20px;
+  color: rgb(217, 217, 217);
+}
+#appleLogo{
+  font-size: 20px;
+  transform: translateY(2px);
+  margin-left: 5px;
+}
+#appleLogo:active{
+  color: white;
+}
+.nav-bar a{
+  font-size: 14px;
+  color: rgb(204, 204, 204);
+}
+a:active{
+  color: white;
+}
+
+/*Main sections 1st image content.*/
+.img1Content{
+  font-family: 'Roboto' sans-serif;
+  text-align: center;
+  background: rgb(249, 249, 249)
+}
+.img1Content h2{
+  font-size: 60px;
+  padding-top: 60px;
+}
+.img1Content p{
+  font-size: 32px;
+  padding-top: 10px;
+}
+.img1Content a{
+  color: rgb(0, 104, 204);
+  font-size: 22px;
+}
+.img1{
+  width: 56.1vh;
+  /**height: 32.9vh; I might add.**/
+}
+
+/*Main sections 2nd image content.*/
+.img2Cnt{
+  transform: translateY(-50px);
+}
+.img2Content{
+  font-family: 'Roboto' sans-serif;
+  text-align: center;
+  transform: translateY(60px);
+  background: black;
+  padding: 50px 0 0 16px;
+}
+.img2Content h2{
+  font-size: 60px;
+  color: white;
+}
+.img2Content p{
+  font-size: 32px;
+  padding-top: 10px;
+  color: white;
+}
+.img2Content a{
+  color: rgb(0, 104, 204);
+  font-size: 22px;
+}
+.img2{
+  width: 56.1vh;
+  margin-top: 3vh;
+}
+
+/*Main sections 3rd image content.*/
+.img3Cnt{
+  transform: translateY(-100px);
+}
+.img3Content{
+  font-family: 'Roboto' sans-serif;
+  text-align: center;
+  transform: translateY(60px);
+  background: black;
+  padding: 50px 0 0 16px;
+}
+.img3Content h2{
+  font-size: 50px;
+  color: white;
+}
+.img3Content i{
+  font-size: 58px;
+}
+.img3Content .d8{
+  color: red;/*I need color in rgb.*/
+  font-size: 28px;
+}
+.img3Content .d7{
+  font-size: 32px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+}
+.img3Content a{
+  color: rgb(0, 104, 204);
+  font-size: 22px;
+}
+.img3{
+  width: 56.1vh;
+  margin-top: 3vh;
+}
+
+/*Left image number 4. 2nd part of main page.*/
+.flexibleDiv{
+  display: flex;
+}
+.img4Cnt{
+  margin-left: 20px;/*use in adjusting left position of left image.*/
+  transform: translateY(-80px);/*use in adjusting top position of left image.*/
+  position: absolute;
+  /*border: 1px solid black;*/
+}
+.img4Content{
+ font-family: 'Roboto' sans-serif;
+ transform: translateY(30px);
+}
+.c2{
+ font-size: 40px;
+ text-align: center;
+ padding-top: 10px;
+}
+.ultra{
+ font-size: 18px;
+ transform: translateY(-5px);
+ color: red;/*I need color in rgb.*/
+}
+.b3{
+  font-size: 24px;
+}
+.learnMore{
+  font-size: 20px;
+  transform: translateY(5px);
+}
+.img4Content h2{
+  font-size: 36px;
+}
+.img4Content a{
+  color: rgb(0, 204, 255);
+}
+.img4Content i{
+  font-size: 40.5px;
+}
+.img4{
+  width: 28.1rem;
+  margin-top: 6.5rem;
+}
+
+/*Right image number 5.*/
+.flexibleDiv{
+  display: flex;
+}
+.img4Cnt{
+  margin-left: 20px;/*use in adjusting left position of left image.*/
+  transform: translateY(-80px);/*use in adjusting top position of left image.*/
+  position: absolute;
+  /*border: 1px solid black;*/
+}
+.img5Content{
+ font-family: 'Roboto' sans-serif;
+ transform: translateY(30px);
+}
+.n2{
+ font-size: 40px;
+ text-align: center;
+ padding-top: 10px;
+}
+.Ntext{
+ font-size: 22px;
+ transform: translateY(-5px);
+ color: rgba(0, 0, 0, 1);
+}
+.k3{
+  transform: translateY(-5px);
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.learnMoreW{
+  transform: translateY(5px);
+  font-size: 20px;
+  color: rgb(0, 104, 204);/*I need different blue color as an rgb for this link.*/
+  padding-left: 180px;
+}
+.img5Content h2{
+  font-size: 36px;
+}
+.img5Content a{
+  color: rgb(0, 204, 255);
+}
+.img5Content i{
+  font-size: 40.5px;
+}
+.img4{
+  width: 28.1rem;
+  margin-top: 6.5rem;
+}
+.img5Cnt{
+ margin-right: 15px;
+ margin-left: 505px;/*use in adjusting right position of right image.*/
+ margin-top: -80px;/*use in adjusting top position of right image.*/
+ /*border: 1px solid black;*/
+ width: 28.1rem;
+ height: 31.6rem;
+}
+.img5{
+ width: 12rem;
+ height: 18rem;
+ padding-left: 130px;
+ padding-top: 50px;
+}
+
+/*Left image number 6.*/
+.flexibleDiv{
+  display: flex;
+}
+.img4Cnt{
+  margin-left: 20px;/*use in adjusting left position of left image.*/
+  transform: translateY(-80px);/*use in adjusting top position of left image.*/
+  position: absolute;
+  /*border: 1px solid black;*/
+}
+.img6Content{
+ font-family: 'Roboto' sans-serif;
+ transform: translateY(30px);
+}
+.f2{
+ font-size: 40px;
+ color: white;
+ text-align: center;
+ padding-top: 10px;
+ transform: translateY(30px);/*in use to control position of heading, up or down.*/
+}
+.g3{
+  color: rgb(230, 230, 230);
+  font-size: 24px;
+  transform: translateY(25px);/*in use to control position of link, up or down.*/
+}
+.learnMoreM{
+  font-size: 20px;
+  transform: translateY(30px);/*in use to controposition of text, up and down.*/
+}
+.img4Content h2{
+  font-size: 36px;
+}
+.img4Content i{
+  font-size: 40.5px;
+}
+.img4{
+  width: 28.1rem;
+  margin-top: 6.5rem;
+}
+.img6Cnt{
+ margin-right: 15px;
+ margin-left: 20px;/*use in adjusting left/right position of left image6.*/
+ margin-top: 25px;/*use in adjusting top/bottom position of left image6.*/
+ border: 1px solid black;
+ width: 28.1rem;
+ height: 31.6rem;
+ background: black;
+}
+.img6Content a{
+  color: rgb(0, 204, 255);
+}
+.img6{
+ width: 28.22rem;
+ height: 17.5rem;
+ margin-left: -1.3px;
+ margin-top: 8.3rem;
+}
+
+/*Right image number 7.*/
+.flexibleDiv{
+  display: flex;
+}
+.img4Cnt{
+  margin-left: 20px;/*use in adjusting left position of left image.*/
+  transform: translateY(-80px);/*use in adjusting top position of left image.*/
+  position: absolute;
+  /*border: 1px solid black;*/
+}
+.img4Content{
+ font-family: 'Roboto' sans-serif;
+ transform: translateY(30px);
+}
+.aa2{
+ font-size: 40px;
+ text-align: center;
+ padding-top: 10px;
+}
+#lom{
+  font-size: 22px;
+}
+.Ttext{
+ transform: translateY(-5px);
+}
+#zzz{
+  font-size: 20px;
+}
+.hh3{
+  transform: translateY(-10px);
+  color: rgba(0, 0, 0, 0.9);
+}
+.img7Content h2{
+  font-size: 36px;
+}
+.img7Content p{
+  font-size: 28px;
+}
+.img4{
+  width: 28.1rem;
+  margin-top: 6.5rem;
+}
+.img7Cnt{
+ margin-right: 15px;
+ margin-left: 505px;/*use in adjusting right position of right image.*/
+ margin-top: -508px;/*use in adjusting top position of right image.*/
+ /*border: 1px solid black;*/
+ width: 28.1rem;
+ height: 32.6rem;
+}
+.img7Content{
+  transform: translateY(60px);
+}
+.img7Content a{
+  color: rgb(0, 204, 255);
+}
+.img7{
+ width: 27rem;
+ height: 14rem;
+ padding-left: 5px;
+ padding-top: 100px;/*use in adjusting image position, top or bottom.*/
+}
+
+/*Left image number 8.*/
+.flexibleDiv{
+  display: flex;
+}
+.img4Cnt{
+  margin-left: 20px;/*use in adjusting left position of left image.*/
+  transform: translateY(-80px);/*use in adjusting top position of left image.*/
+  position: absolute;
+  /*border: 1px solid black;*/
+}
+.img4Content{
+ font-family: 'Roboto' sans-serif;
+ transform: translateY(25px);
+}
+.x2{
+ font-size: 40px;
+ color: white;
+ text-align: center;
+ padding-top: 10px;
+ transform: translateY(45px);/*in use to control position of heading, up or down.*/
+}
+.y3{
+  color: rgb(230, 230, 230);
+  font-size: 22px;
+  transform: translateY(20px);/*in use to control position of link, up or down.*//*drags down or rises item.*/
+}
+#lom2{
+  font-size: 20px;
+  color: rgb(153, 153, 153);
+  transform: translateX(110px);
+  padding-top: 30px;/*drags down or rises item.*/
+}
+.learnMoreG{
+  font-size: 20px;
+  transform: translateY(10px);/*in use to control position of text, up and down.*/
+}
+.img8Content h2{
+  font-size: 36px;
+}
+.img8Content i{
+  font-size: 40.5px;
+}
+.img4{
+  width: 28.1rem;
+  margin-top: 6.5rem;
+}
+.img8Cnt{
+ margin-right: 15px;
+ margin-left: 20px;/*use in adjusting left/right position of left image6.*/
+ margin-top: 25px;/*use in adjusting top/bottom position of left image6.*/
+ /*border: 1px solid red;*/
+ width: 28.1rem;
+ height: 31.6rem;
+ background: black;
+}
+.img8Content a{
+  color: rgb(0, 204, 255);
+}
+.img8{
+ width: 28.1rem;
+ height: 16.5rem;
+ margin-top: 10px;
+}
+
+/*Right image number 9.*/
+.flexibleDiv{
+  display: flex;
+}
+.img4Cnt{
+  margin-left: 20px;/*use in adjusting left position of left image.*/
+  transform: translateY(-80px);/*use in adjusting top position of left image.*/
+  position: absolute;
+  /*border: 1px solid black;*/
+}
+.img4Content{
+ font-family: 'Roboto' sans-serif;
+ transform: translateY(30px);
+}
+.o2{
+ font-size: 40px;
+ color: rgb(255, 255, 255);
+ text-align: center;
+ transform: translateY(-5px);
+}
+#ccc{
+  color: rgb(230, 230, 230);
+  font-size: 22px;
+  transform: translateY(-20px);
+}
+.learnMoreM2BK{
+ font-size: 20px;
+ transform: translateY(10px);
+}
+.img9Content h2{
+  font-size: 36px;
+}
+.img7Content p{
+  font-size: 28px;
+}
+.img4{
+  width: 28.1rem;
+  margin-top: 6.5rem;
+}
+.img9Cnt{
+ margin-right: 15px;
+ margin-left: 505px;/*use in adjusting right position of right image.*/
+ margin-top: -506px;/*use in adjusting top position of right image.*/
+ /*border: 1px solid black;*/
+ width: 28.1rem;
+ height: 31.6rem;
+ background: black;
+ /*border: 1px solid red;*/
+}
+.img9Content{
+  transform: translateY(60px);
+}
+.img9Content a{
+  color: rgb(0, 204, 255);
+}
+.img9{
+ width: 25rem;
+ height: 12rem;
+ padding-left: 25px;
+ padding-top: 160px;/*use in adjusting image position, top or bottom.*/
+}
+
+/*Here I making footer of this website*/
+.divContainer{
+  width: 978px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(242, 242, 242);
+  /*border: 1px solid green;*//*Border for main div*/
+}
+.divContainer div{
+  /*border: 1px solid blue;*//*Border for main divs innee content*/
+  width: 130px;
+}
+.divContainer div a{
+  color: rgb(102, 102, 102);
+}
+/*hr with less thickness.*/
+.hrLine {
+  border: none;
+  height: 1px;
+  width: 58.3rem;
+  color: rgb(204, 204, 204);
+  background-color: rgb(204, 204, 204);
+  margin-left: 20px;
+}
+
+/*Here I adjusting items positions*/
+.item-1{
+  margin: 20px;
+}
+.item-1 p{
+  padding-top: 10px;
+}
+.item-2, .item-3{
+  margin-left: 220px;
+  transform: translateY(-220px);
+}
+.item-2 p{
+  padding-top: 10px;
+}
+.item-3{
+  margin-top: 20px;
+}
+.item-3 p{
+  padding-top: 10px;
+}
+.item-4{
+  margin-left: 440px;
+  transform: translateY(-520px);
+}
+.item-4 p{
+  padding-top: 10px;
+}
+.item-5, .item-6{
+  margin-left: 660px;
+  transform: translateY(-570px);
+}
+.item-5 p{
+  padding-top: 10px;
+}
+.item-6{
+  margin-top: 20px;
+}
+.item-6 p{
+  padding-top: 10px;
+}
+.BLT{
+  color: black;
+}
+
+/*Here I adjusting Very-foot-end of the website*/
+.item-7{
+  transform: translateY(-460px);
+}
+#divItem-7{
+  text-decoration: underline;
+  color: rgb(0, 128, 255);
+}
+.pText{
+  transform: translateY(-5px);
+  margin-left: 20px;
+  color: rgb(102, 102, 102);
+}
+.ppText{
+  transform: translateY(5px);
+  margin-left: 20px;
+  color: rgb(102, 102, 102);
+}
+.pppText{
+  transform: translateY(-10px);
+  margin-left: 340px;
+  color: rgb(102, 102, 102);
+}
+.gText{
+  transform: translateY(-24.5px);
+  margin-left: 908px;
+}
+#GTC{
+  color: rgb(102, 102, 102);
+  animation: none;
+}
+.MWT, .EWT{
+  color: rgb(102, 102, 102);
+}
